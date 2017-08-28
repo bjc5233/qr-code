@@ -1,4 +1,4 @@
-@echo off& call loadE.bat CurS& call loadJ.bat QrCodeUtil
+@echo off& call lib\loadE.bat CurS& call lib\loadJ.bat QrCodeUtil
 mode 124,62& %CurS% /crv 0& color F0
 
 title %*
